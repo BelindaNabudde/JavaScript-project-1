@@ -1,0 +1,43 @@
+.list-item{
+    display: flex;
+    justify-content: space-between;
+    width:75%;
+    margin-top:12px;
+}
+.list-item span{
+    flex-basis: 90%;
+}
+::placeholder{
+    font-family:'Lobster', cursive;
+    font-size :"xx-large";
+    padding-left: 50px;
+}
+#input{
+    width:80%;
+    height:50px;
+}
+.about{
+    width:100%;
+    padding: 15px 0px;
+    background-color: #191919;
+}
+.list-content{
+    width:850px;
+    align-items: center;
+    padding-left: 300px ;
+}
+.main{
+    width:1130px;
+    max-width:95%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h1{
+    text-transform: capitalize;
+    color: white;
+    font-family:'Lobster', cursive;
+    font-size :"xx-large";
+    padding-left: 200px;
+}
